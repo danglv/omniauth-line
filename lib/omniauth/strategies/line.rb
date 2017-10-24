@@ -9,7 +9,7 @@ module OmniAuth
       option :client_options, {
         site: 'https://access.line.me',
         authorize_url: '/dialog/oauth/weblogin',
-        token_url: '/v2/oauth/accessToken'
+        token_url: '/oauth2/v2.1/token'
       }
 
       # host changed
